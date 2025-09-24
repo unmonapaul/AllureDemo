@@ -25,12 +25,18 @@ public class AppTest {
         assertEquals(diff, 15, "Sub should be 15");
     }
     @Test
-    @Description("Simple test to check multiply")
+    @Description("Simple test to check multiplication")
     public void testAddition() {
         int a = 5;
         int b = 10;
         int mul = a * b;
-        assertEquals(mul, 15, "Multiplication should be 15");
+        assertEquals(mul, 15, "Multiplication should be 50");
     }
-
+@Test
+    @Description("Simple test to check Divition")
+    public void testAddition() {
+        int a = 10;
+        int b = 5;
+        int mul = a / b;
+        assertEquals(div, 15, "Divition should be 2");
 }
